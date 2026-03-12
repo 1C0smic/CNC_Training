@@ -19,7 +19,11 @@ G01 F5. 		(Change to Cutting speed and set Feed Rate.)
 Z-0.3;
 
 (POSITIONS GO HERE)
-
+G00 X2.5 Y1.5
+G01 Z-0.5 F12.0
+          Y0.5
+G02 X1.5 R0.5
+G01      Y1.5
 (End Sequence)
 G28				(Machine Home) 
 M30 
